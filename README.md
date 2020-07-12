@@ -18,6 +18,7 @@ No of docs in cporpus:
     Teachers were so excited seeing their students happy.
     Hello dear students! Cheered the school principle.
     Students started to play basketball from day one.
+    
 {0: '    The students went to their new school yesterday.', 1: '    Azad was the best basketball player in the city.', 2: '    Next week the basketball league will start in Zakho. ', 3: '    Today the school is full of happy students for starting their new school year. ', 4: '    Best team in zakho will play with the best team from Dohuk. ', 5: '    Teachers were so excited seeing their students happy.', 6: '    Hello dear students! Cheered the school principle.', 7: '    Students started to play basketball from day one.'}
 
  Term/Feature Names:  ################################# 
@@ -25,6 +26,7 @@ No of docs in cporpus:
 ['!', '.', 'azad', 'basketball', 'best', 'cheered', 'city', 'day', 'dear', 'dohuk', 'excited', 'full', 'happy', 'hello', 'league', 'new', 'next', 'one', 'play', 'player', 'principle', 'school', 'seeing', 'start', 'started', 'starting', 'student', 'teacher', 'team', 'today', 'wa', 'week', 'went', 'year', 'yesterday', 'zakho']
 
  File_IDSs:  [0, 1, 2, 3, 4, 5, 6, 7]
+ 
 tf_idf_matrix: ################################# 
  
 number of features/term:  36
@@ -39,10 +41,13 @@ number of docs:  8
 6 [0.408, 0.163, 0.0, 0.0, 0.0, 0.408, 0.0, 0.0, 0.408, 0.0, 0.0, 0.0, 0.0, 0.408, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.408, 0.295, 0.0, 0.0, 0.0, 0.0, 0.229, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 7 [0.0, 0.184, 0.0, 0.334, 0.0, 0.0, 0.0, 0.461, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.461, 0.387, 0.0, 0.0, 0.0, 0.0, 0.0, 0.461, 0.0, 0.259, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0]
 
+
  km.fit :  
+ 
   <bound method KMeans.fit of KMeans(algorithm='auto', copy_x=True, init='k-means++', max_iter=300,
     n_clusters=2, n_init=10, n_jobs=1, precompute_distances='auto',
     random_state=None, tol=0.0001, verbose=0)>
+    
 Results: ################################# 
                                                   text  category
 0      The students went to their new school yest...         0
@@ -53,6 +58,7 @@ Results: #################################
 5      Teachers were so excited seeing their stud...         0
 6      Hello dear students! Cheered the school pr...         0
 7      Students started to play basketball from d...         1
+
 Clustering Evaluation Results: ################################# 
  
 precision: [ 0.    0.25]
