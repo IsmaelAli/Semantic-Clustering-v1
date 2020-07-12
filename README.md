@@ -4,7 +4,7 @@
 #### Then evaluate the clustering results.
 
 Output:
-/Library/Frameworks/Python.framework/Versions/3.5/bin/python3.5 /Users/IsmaelMac/PycharmProjects/TFIDFKMEANSCLUSTERING/tefidfkmeansclustering.py
+
 No of docs in cporpus:
 8
 
